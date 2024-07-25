@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Prueba Técnica para Desarrollador Frontend Senior en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objetivo
+El objetivo de esta prueba es evaluar tu capacidad para estructurar y refactorizar una aplicación React utilizando las mejores prácticas de Clean Architecture, patrones de diseño, y buenas prácticas de desarrollo frontend.
 
-Currently, two official plugins are available:
+## Requerimientos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Estilos y Maquetación
+- [ ] Configura Tailwind CSS en el proyecto.
+- [ ] Agrega estilos básicos para mejorar la visualización de la aplicación.
 
-## Expanding the ESLint configuration
+### Refactor y Funcionalidad
+- [ ] Reubica los componentes siguiendo el patrón de Atomic Design.
+- [ ] Agrega tipos utilizando TypeScript y separa la lógica de la presentación siguiendo un patrón de Clean Architecture.
+- [ ] Al agregar un nuevo ítem, este debe ser el único listado en la pantalla.
+- [ ] Agrega validaciones al formulario de adición de ítems.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Integración
+- [ ] Crea un Pull Request (PR) en el repositorio, detallando los cambios realizados.

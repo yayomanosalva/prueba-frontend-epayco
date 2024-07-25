@@ -1,5 +1,3 @@
-# Prueba Técnica para Desarrollador Frontend Senior en React
-
 ## Objetivo
 El objetivo de esta prueba es evaluar tu capacidad para estructurar y refactorizar una aplicación React utilizando las mejores prácticas de Clean Architecture, patrones de diseño, y buenas prácticas de desarrollo frontend.
 
